@@ -11,10 +11,10 @@ body,
   margin: 0;
   padding: 0;
 }
-
+/* Changed background color for aesthetic reasons. */
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: lavender;
 }
 
 .wrapper {
@@ -71,12 +71,12 @@ header {
   display: block;
   clear: both;
 }
-
+/* Changed button color for aesthetic reaasons. */ 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: hsl(294, 89%, 24%);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+  box-shadow: rgba(216, 12, 231, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;

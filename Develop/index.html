@@ -28,6 +28,21 @@
           <button id="generate" class="btn">Generate Password</button>
         </div>
       </div>
+      <div>
+        <input class="pw-length" id="pw-length" type="number" min="8" max="128" placeholder="8" value="8">
+      </div>
+      <!-- Checkboxes with password criteria created below. Variables attached to criteria names.-->
+      <div>
+        <input type="checkbox" id="lowercase" name="lowercase" value="lowercase"/>
+        <label for="lowercase">Lowercase</label><br>
+        <input type="checkbox" id="uppercase" name="uppercase" value="uppercase">
+        <label for="uppercase">Uppercase</label><br>
+        <input type="checkbox" id="numeric" name="numeric" value="numeric">
+        <label for="numeric">Numeric</label><br>
+        <input type="checkbox" id="special" name="special" value="special">
+        <label for="special">Special</label>
+      </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
