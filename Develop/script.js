@@ -9,8 +9,9 @@ var special = document.getElementById("special");
 
 
 
+
 // Assignment code here.
-// Function to execute JS when user clicks checkboxes accordingly. Variables 'chars' & 'pw' are below becuase when moved outside of function, password generator keeps repeating cycle on user screen. Variable 'pwLength' is also below to enable user to select length of password feature without it being generated to a set value.
+// Function to execute JS when user clicks checkboxes accordingly. Variables 'chars' & 'pw' are below becuase when moved outside of function, password generator keeps repeating cycle on user screen. Variable 'pwLength' is also below to enable user to select length of password feature without it being generated to a set value of 8 outside of function. 
 function generatePassword() {
   var chars = "";
   var pw = "";
@@ -45,7 +46,7 @@ function generatePassword() {
     var randomNumber = Math.floor(Math.random() * chars.length);
     pw += chars.substring(randomNumber, randomNumber +1);
   }
-
+// Nice message will appear if user does NOT check any of the boxes/criteria for their password.
   if(pw == "") {
     return "Please check at least one of the checkboxes below. Thank you!";
   }
