@@ -4,7 +4,7 @@ js-password-generator is a beta site designed by a novice student that includes 
 
 ## Installation
 
-Use the link to access the site: 
+Use the link to access the site: https://alesofia9.github.io/js-password-generator/ 
 
 ## Usage
 
